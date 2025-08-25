@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327.6 292.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        font-family: Poppins-Bold, Poppins;
+        font-size: 19px;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #1c3d6e;
+      }
+
+      .cls-5 {
+        font-size: 38.3px;
+      }
+
+      .cls-5, .cls-3 {
+        font-family: Poppins-Black, Poppins;
+        font-weight: 800;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 126px;
+      }
+
+      .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#GradientFill_2);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="GradientFill_2" data-name="GradientFill 2" x1="25.39" y1="138.4" x2="302.21" y2="138.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcc6c"/>
+      <stop offset=".46" stop-color="#ffcc6c"/>
+      <stop offset=".6" stop-color="#ffcc6c"/>
+      <stop offset=".6" stop-color="#ffcc6c"/>
+      <stop offset=".68" stop-color="#ffe98e"/>
+      <stop offset=".76" stop-color="#ffcc6c"/>
+      <stop offset=".79" stop-color="#ffcc6c"/>
+      <stop offset=".79" stop-color="#ffcc6c"/>
+      <stop offset="1" stop-color="#d0832b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="0" y1="238.79" x2="76.59" y2="238.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c3812a"/>
+      <stop offset=".51" stop-color="#f2c134"/>
+      <stop offset="1" stop-color="#bb7329"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="251.01" x2="327.6" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="32.97" y1="253.25" x2="294.63" y2="253.25" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="32.97" y1="222.02" x2="76.59" y2="222.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b17129"/>
+      <stop offset="1" stop-color="#8e5723"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="251.01" x2="294.63" xlink:href="#linear-gradient-4"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-6" d="M186.92,262.29c-6.16,6.16-14.37,9.55-23.13,9.55s-16.97-3.39-23.13-9.55M291.2,111.77L190.43,11.01C183.34,3.92,173.88,0,163.8,0s-19.55,3.91-26.65,11l-63.34,63.35-37.41,37.42c-7.09,7.09-11.01,16.55-11.01,26.64s3.91,19.55,11.01,26.64l100.76,100.76c7.09,7.09,16.55,11,26.64,11s19.55-3.9,26.64-11l100.76-100.76c7.1-7.11,11.01-16.57,11.01-26.64s-3.91-19.54-11.01-26.64Z"/>
+    <g>
+      <g>
+        <g>
+          <path class="cls-7" d="M291.2,111.77L190.43,11c-7.09-7.09-16.56-11-26.64-11s-19.55,3.91-26.65,11l-63.34,63.35-37.41,37.42c-7.09,7.09-11.01,16.55-11.01,26.64s3.91,19.55,11.01,26.64l100.76,100.76c7.09,7.09,16.55,11,26.64,11s19.55-3.9,26.64-11l100.76-100.76c7.1-7.11,11.01-16.57,11.01-26.64s-3.91-19.54-11.01-26.64ZM287.68,161.53l-100.76,100.76c-6.16,6.16-14.37,9.55-23.13,9.55s-16.97-3.39-23.13-9.55l-100.76-100.76c-6.16-6.16-9.55-14.37-9.55-23.13,0-8.76,3.39-16.97,9.55-23.13L140.66,14.51c6.16-6.16,14.37-9.55,23.13-9.55s16.97,3.39,23.13,9.55l100.76,100.76c12.75,12.75,12.75,33.5,0,46.26Z"/>
+          <g>
+            <g>
+              <polygon class="cls-11" points="0 215.15 20.79 238.79 0 262.42 76.59 262.42 76.59 238.79 76.59 215.15 0 215.15"/>
+              <polygon class="cls-1" points="327.6 215.15 306.81 238.79 327.6 262.42 251.01 262.42 251.01 238.79 251.01 215.15 327.6 215.15"/>
+            </g>
+            <polygon class="cls-9" points="163.8 228.9 32.97 228.9 49.78 277.61 163.8 277.61 277.82 277.61 294.63 228.9 163.8 228.9"/>
+            <polygon class="cls-8" points="32.97 228.9 76.59 215.15 76.59 228.9 32.97 228.9"/>
+            <polygon class="cls-10" points="251.01 215.15 251.01 228.9 294.63 228.9 251.01 215.15"/>
+          </g>
+        </g>
+        <g>
+          <polygon class="cls-4" points="163.8 193.9 167.66 201.72 176.29 202.97 170.04 209.06 171.52 217.65 163.8 213.59 156.08 217.65 157.56 209.06 151.31 202.97 159.94 201.72 163.8 193.9"/>
+          <g>
+            <polygon class="cls-4" points="137.33 197.4 140.05 202.91 146.13 203.8 141.73 208.09 142.77 214.15 137.33 211.29 131.88 214.15 132.92 208.09 128.52 203.8 134.6 202.91 137.33 197.4"/>
+            <polygon class="cls-4" points="115.62 199.46 117.67 203.62 122.25 204.28 118.93 207.52 119.72 212.08 115.62 209.93 111.52 212.08 112.3 207.52 108.98 204.28 113.57 203.62 115.62 199.46"/>
+            <polygon class="cls-4" points="190.27 197.4 187.55 202.91 181.47 203.8 185.87 208.09 184.83 214.15 190.27 211.29 195.72 214.15 194.68 208.09 199.08 203.8 193 202.91 190.27 197.4"/>
+            <polygon class="cls-4" points="211.98 199.46 209.93 203.62 205.35 204.28 208.67 207.52 207.88 212.08 211.98 209.93 216.08 212.08 215.3 207.52 218.62 204.28 214.03 203.62 211.98 199.46"/>
+          </g>
+        </g>
+        <text class="cls-2" transform="translate(108.6 62.9)"><tspan x="0" y="0">Accredited</tspan><tspan x="0" y="18.31">with Grade </tspan></text>
+        <text class="cls-3" transform="translate(115.62 182.06)"><tspan x="0" y="0">A</tspan></text>
+        <g>
+          <rect class="cls-4" x="62.12" y="134.21" width="37.39" height="2.28"/>
+          <g>
+            <rect class="cls-4" x="80.81" y="125.63" width="18.7" height="2.28"/>
+            <rect class="cls-4" x="80.81" y="142.79" width="18.7" height="2.28"/>
+          </g>
+        </g>
+        <g>
+          <rect class="cls-4" x="233.26" y="134.21" width="37.39" height="2.28"/>
+          <g>
+            <rect class="cls-4" x="233.26" y="125.63" width="18.7" height="2.28"/>
+            <rect class="cls-4" x="233.26" y="142.79" width="18.7" height="2.28"/>
+          </g>
+        </g>
+      </g>
+      <text class="cls-5" transform="translate(107.3 268.08)"><tspan x="0" y="0">NAAC</tspan></text>
+    </g>
+  </g>
+</svg>
