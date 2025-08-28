@@ -15,10 +15,6 @@ import {
   Stethoscope,
   Cpu,
   MapPin,
-  Phone,
-  Mail,
-  Globe,
-  ExternalLink,
   ArrowRight,
 } from "lucide-react"
 import Image from "next/image"
@@ -186,3 +182,116 @@ export default function ShanmughahEcosystem() {
 
         {/* Institutions Grid */}
         <ScrollReveal delay={400}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {institutions.map((institution, index) => (
+              <Card key={institution.id} className="group hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={institution.image || "/placeholder.svg"}
+                    alt={institution.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <Badge className={`${institution.color} mb-2`}>{institution.type}</Badge>
+                    <h3 className="text-xl font-bold text-white mb-1">{institution.name}</h3>
+                    <div className="flex items-center text-white/90 text-sm">
+                      <MapPin className="w-4 h-4 mr-1" />
+                      {institution.location}
+                    </div>
+                  </div>
+                </div>
+
+                <CardContent className="p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center space-x-2">
+                      {institution.icon}
+                      <span className="text-sm text-gray-600">Est. {institution.established}</span>
+                    </div>
+                    <div className="flex space-x-1">
+                      {institution.accreditation.map((acc, idx) => (
+                        <Badge key={idx} variant="outline" className="text-xs">
+                          {acc}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 mb-4">{institution.description}</p>
+
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div className="text-center p-3 bg-blue-50 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600">{institution.students}</div>
+                      <div className="text-sm text-gray-600">Students</div>
+                    </div>
+                    <div className="text-center p-3 bg-green-50 rounded-lg">
+                      <div className="text-2xl font-bold text-green-600">{institution.faculty}</div>
+                      <div className="text-sm text-gray-600">Faculty</div>
+                    </div>
+                  </div>
+
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-gray-900 mb-2">Programs Offered:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {institution.programs.slice(0, 4).map((program, idx) => (
+                        <Badge key={idx} variant="secondary" className="text-xs">
+                          {program}
+                        </Badge>
+                      ))}
+                      {institution.programs.length > 4 && (
+                        <Badge variant="secondary" className="text-xs">
+                          +{institution.programs.length - 4} more
+                        </Badge>
+                      )}
+                    </div>
+                  </div>
+
+                  {institution.website && (
+                    <Link href={institution.website}>
+                      <Button className="w-full group">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
+                  )}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </ScrollReveal>
+
+        {/* Call to Action */}
+        <ScrollReveal delay={600}>
+          <div className="text-center mt-16">
+            <Card className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+              <CardContent className="p-12">
+                <h3 className="text-3xl font-bold mb-4">Join Our Educational Ecosystem</h3>
+                <p className="text-xl mb-8 text-blue-100">
+                  Discover opportunities across our specialized institutions and become part of our legacy of excellence
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href="/admissions">
+                    <Button size="lg" variant="secondary" className="group">
+                      Apply Now
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                  <Link href="/contact">
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className="bg-transparent border-white text-white hover:bg-white hover:text-blue-600"
+                    >
+                      Contact Us
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  )
+}
